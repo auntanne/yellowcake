@@ -121,12 +121,12 @@ class Form extends React.Component {
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Message"
+              placeholder="Just the facts"
               name="message"
               rows="10"
               required
             />
-            <span>Message</span>
+            <span>Anything else we need to know?</span>
           </label>
           
          
@@ -135,7 +135,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
+            value="Do it!"
             disabled={this.state.disabled}
           />
         </form>
